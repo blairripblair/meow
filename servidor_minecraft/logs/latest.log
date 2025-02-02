@@ -1,5 +1,5 @@
-[02Feb2025 23:18:10.323] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.20.4 Arclight arclight-1.20.4-1.0.4-80ec5df with Fabric Loader 0.15.11
-mainEx[02Feb2025 23:18:10.588] [main/INFO] [FabricLoader/]: Loading 45 mods:
+[02Feb2025 23:20:03.210] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.20.4 Arclight arclight-1.20.4-1.0.4-80ec5df with Fabric Loader 0.15.11
+mainEx[02Feb2025 23:20:03.538] [main/INFO] [FabricLoader/]: Loading 45 mods:
 	- arclight 1.0.4+80ec5df
 	- collective 7.87
 	- fabric-api 0.97.1+1.20.4
@@ -58,10 +58,10 @@ mainEx[02Feb2025 23:18:10.588] [main/INFO] [FabricLoader/]: Loading 45 mods:
 	- java 21
 	- minecraft 1.20.4
 	- true_herobrine 1.0
-mainEx[02Feb2025 23:18:10.735] [main/INFO] [FabricLoader/Mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/meow/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-mainEx[02Feb2025 23:18:10.818] [main/INFO] [FabricLoader/Mixin/]: Compatibility level set to JAVA_17
-mainEx[02Feb2025 23:18:11.548] [main/INFO] [Arclight/]: Using locale en_ and fallback locale en_us
-mainEx[02Feb2025 23:18:11.560] [main/INFO] [Arclight/]: 
+mainEx[02Feb2025 23:20:03.691] [main/INFO] [FabricLoader/Mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/meow/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+mainEx[02Feb2025 23:20:03.779] [main/INFO] [FabricLoader/Mixin/]: Compatibility level set to JAVA_17
+mainEx[02Feb2025 23:20:04.508] [main/INFO] [Arclight/]: Using locale en_ and fallback locale en_us
+mainEx[02Feb2025 23:20:04.514] [main/INFO] [Arclight/]: 
 
        ___           ___     __   /\
       /   | ________/ (_)__ / /  / /
@@ -73,7 +73,7 @@ mainEx[02Feb2025 23:18:11.560] [main/INFO] [Arclight/]:
     Version 附耳 (Whisper) / arclight-1.20.4-1.0.4-80ec5df
     Build Date 2024-06-14 12:05:55
 
-mainEx[02Feb2025 23:18:13.523] [main/ERROR] [FabricLoader/Mixin/]: Mixin prepare for mod true_herobrine failed preparing TrueHerobrineModRepairItemRecipeMixin in true_herobrine.mixins.json: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException The specified mixin 'crumbs.trueherobrine.mixins.TrueHerobrineModRepairItemRecipeMixin' was not found
+mainEx[02Feb2025 23:20:06.020] [main/ERROR] [FabricLoader/Mixin/]: Mixin prepare for mod true_herobrine failed preparing TrueHerobrineModRepairItemRecipeMixin in true_herobrine.mixins.json: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException The specified mixin 'crumbs.trueherobrine.mixins.TrueHerobrineModRepairItemRecipeMixin' was not found
 mainEx org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: The specified mixin 'crumbs.trueherobrine.mixins.TrueHerobrineModRepairItemRecipeMixin' was not found
 	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:865) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
 	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:852) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
