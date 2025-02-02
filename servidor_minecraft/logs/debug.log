@@ -1,13 +1,13 @@
-[02Feb2025 23:16:45.820] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.20.4 Arclight arclight-1.20.4-1.0.4-80ec5df with Fabric Loader 0.15.11
-mainEx[02Feb2025 23:16:45.867] [main/DEBUG] [FabricLoader/GamePatch/]: Found game constructor: net.minecraft.server.Main -> net/minecraft/server/Main
-mainEx[02Feb2025 23:16:45.868] [main/DEBUG] [FabricLoader/GamePatch/]: Patching game constructor main([Ljava/lang/String;)V
-mainEx[02Feb2025 23:16:45.868] [main/DEBUG] [FabricLoader/GamePatch/]: 20w22a+ detected, patching main method...
-mainEx[02Feb2025 23:16:45.869] [main/DEBUG] [FabricLoader/GamePatch/]: Detected version above 20w22a
-mainEx[02Feb2025 23:16:45.890] [main/DEBUG] [FabricLoader/GamePatch/]: Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
-mainEx[02Feb2025 23:16:45.917] [main/DEBUG] [FabricLoader/GamePatch/]: Patched 2 classs
-mainEx[02Feb2025 23:16:46.097] [main/DEBUG] [FabricLoader/Discovery/]: Mod discovery time: 173.6 ms
-mainEx[02Feb2025 23:16:46.199] [main/DEBUG] [FabricLoader/Resolution/]: Mod resolution time: 100.6 ms
-mainEx[02Feb2025 23:16:46.202] [main/INFO] [FabricLoader/]: Loading 45 mods:
+[02Feb2025 23:18:10.323] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.20.4 Arclight arclight-1.20.4-1.0.4-80ec5df with Fabric Loader 0.15.11
+mainEx[02Feb2025 23:18:10.364] [main/DEBUG] [FabricLoader/GamePatch/]: Found game constructor: net.minecraft.server.Main -> net/minecraft/server/Main
+mainEx[02Feb2025 23:18:10.364] [main/DEBUG] [FabricLoader/GamePatch/]: Patching game constructor main([Ljava/lang/String;)V
+mainEx[02Feb2025 23:18:10.364] [main/DEBUG] [FabricLoader/GamePatch/]: 20w22a+ detected, patching main method...
+mainEx[02Feb2025 23:18:10.365] [main/DEBUG] [FabricLoader/GamePatch/]: Detected version above 20w22a
+mainEx[02Feb2025 23:18:10.373] [main/DEBUG] [FabricLoader/GamePatch/]: Applying brand name hook to net/minecraft/server/MinecraftServer::getServerModName
+mainEx[02Feb2025 23:18:10.412] [main/DEBUG] [FabricLoader/GamePatch/]: Patched 2 classs
+mainEx[02Feb2025 23:18:10.513] [main/DEBUG] [FabricLoader/Discovery/]: Mod discovery time: 96.4 ms
+mainEx[02Feb2025 23:18:10.585] [main/DEBUG] [FabricLoader/Resolution/]: Mod resolution time: 69.7 ms
+mainEx[02Feb2025 23:18:10.588] [main/INFO] [FabricLoader/]: Loading 45 mods:
 	- arclight 1.0.4+80ec5df
 	- collective 7.87
 	- fabric-api 0.97.1+1.20.4
@@ -66,150 +66,150 @@ mainEx[02Feb2025 23:16:46.202] [main/INFO] [FabricLoader/]: Loading 45 mods:
 	- java 21
 	- minecraft 1.20.4
 	- true_herobrine 1.0
-mainEx[02Feb2025 23:16:46.207] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/.arclight/mod_file/arclight-1.20.4-1.0.4-80ec5df.jar to classpath.
-mainEx[02Feb2025 23:16:46.207] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/mods/collective-1.20.1-7.87.jar to classpath.
-mainEx[02Feb2025 23:16:46.208] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-api/fabric-api/0.97.1+1.20.4/fabric-api-0.97.1+1.20.4.jar to classpath.
-mainEx[02Feb2025 23:16:46.208] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-api-base-0.4.37+78d798af4f-2115d2d8a1e12fee.jar to classpath.
-mainEx[02Feb2025 23:16:46.208] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-api-lookup-api-v1-1.6.50+82b1bb3e4f-d1d278ce7cd219bc.jar to classpath.
-mainEx[02Feb2025 23:16:46.208] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-biome-api-v1-13.0.17+78d798af4f-beca9400fdd44a9a.jar to classpath.
-mainEx[02Feb2025 23:16:46.208] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-block-api-v1-1.0.17+3e2216cb4f-4f08fb51782b398.jar to classpath.
-mainEx[02Feb2025 23:16:46.208] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-block-view-api-v2-1.0.5+78d798af4f-85fba6048136699a.jar to classpath.
-mainEx[02Feb2025 23:16:46.208] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-command-api-v1-1.2.42+f71b366f4f-e71f1dc5d089dde5.jar to classpath.
-mainEx[02Feb2025 23:16:46.209] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-command-api-v2-2.2.21+78d798af4f-35dab36c737a7918.jar to classpath.
-mainEx[02Feb2025 23:16:46.209] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-commands-v0-0.2.59+df3654b34f-b45e35f0979674fd.jar to classpath.
-mainEx[02Feb2025 23:16:46.209] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-containers-v0-0.1.87+df3654b34f-603e67fedd8bdc14.jar to classpath.
-mainEx[02Feb2025 23:16:46.209] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-content-registries-v0-5.0+78d798af4f-db658dfab04614d0.jar to classpath.
-mainEx[02Feb2025 23:16:46.209] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-convention-tags-v1-1.5.11+78d798af4f-3697bd45c314762.jar to classpath.
-mainEx[02Feb2025 23:16:46.209] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-crash-report-info-v1-0.2.+78d798af4f-aa4249e2e3e483cd.jar to classpath.
-mainEx[02Feb2025 23:16:46.214] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-data-attachment-api-v1-1.+b90db5744f-f008f4ac2aff402c.jar to classpath.
-mainEx[02Feb2025 23:16:46.215] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-data-generation-api-v1-13+5c0133444f-8770baa3b82ce46b.jar to classpath.
-mainEx[02Feb2025 23:16:46.215] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-dimensions-v1-2.1.63+6605d1a84f-d11ad634a5fddc5b.jar to classpath.
-mainEx[02Feb2025 23:16:46.215] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-entity-events-v1-1.6.2+09fc25014f-9d3cafd2861cad2f.jar to classpath.
-mainEx[02Feb2025 23:16:46.216] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-events-interaction-v0-0.7+389931eb4f-8c89a81acb130984.jar to classpath.
-mainEx[02Feb2025 23:16:46.216] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-events-lifecycle-v0-0.2.7+df3654b34f-92fea7befc1f6232.jar to classpath.
-mainEx[02Feb2025 23:16:46.216] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-game-rule-api-v1-1.0.47+78d798af4f-f79253fd925b07e9.jar to classpath.
-mainEx[02Feb2025 23:16:46.216] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-item-api-v1-2.3.0+bcdd12964f-8c652f38c15bb990.jar to classpath.
-mainEx[02Feb2025 23:16:46.217] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-item-group-api-v1-4.0.27+ee30b13a4f-154ad89205aa98ae.jar to classpath.
-mainEx[02Feb2025 23:16:46.217] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-lifecycle-events-v1-2.3.1+a67ffb5d4f-acb38e9ac085196e.jar to classpath.
-mainEx[02Feb2025 23:16:46.217] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-loot-api-v2-2.1.10+78d798af4f-9c9d712cba86e505.jar to classpath.
-mainEx[02Feb2025 23:16:46.217] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-message-api-v1-6.0.6+78d798af4f-be4a4960cdccb456.jar to classpath.
-mainEx[02Feb2025 23:16:46.217] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-mining-level-api-v1-2.1.6+78d798af4f-4216ada4e2ef0d93.jar to classpath.
-mainEx[02Feb2025 23:16:46.218] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-networking-api-v1-3.1.8+2e5ac5484f-f085a2cd2ccf2cb1.jar to classpath.
-mainEx[02Feb2025 23:16:46.218] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-object-builder-api-v1-13.+dba1195c4f-25526dffe20d8531.jar to classpath.
-mainEx[02Feb2025 23:16:46.218] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-particles-v1-1.1.8+78d798af4f-d5cf53142d49b85a.jar to classpath.
-mainEx[02Feb2025 23:16:46.218] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-recipe-api-v1-2.0.21+78d798af4f-e5491325e86d0c04.jar to classpath.
-mainEx[02Feb2025 23:16:46.218] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-registry-sync-v0-4.0.20+ee30b13a4f-bdc631c79bf85e56.jar to classpath.
-mainEx[02Feb2025 23:16:46.218] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-rendering-data-attachment+73761d2e4f-69edb0c13d824617.jar to classpath.
-mainEx[02Feb2025 23:16:46.218] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-rendering-fluids-v1-3.1.2+e761c6694f-67eec97688c14b85.jar to classpath.
-mainEx[02Feb2025 23:16:46.218] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-resource-conditions-api-v+78d798af4f-9e3117f13f1c165c.jar to classpath.
-mainEx[02Feb2025 23:16:46.219] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-resource-loader-v0-0.11.2+ee30b13a4f-626d7a4c99f27375.jar to classpath.
-mainEx[02Feb2025 23:16:46.219] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-screen-handler-api-v1-1.3+78d798af4f-39ef33077c363c14.jar to classpath.
-mainEx[02Feb2025 23:16:46.219] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-transfer-api-v1-4.0.12+90f2d7b14f-6973f444ba7763.jar to classpath.
-mainEx[02Feb2025 23:16:46.219] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-transitive-access-widener+78d798af4f-20b39e996c6a2d62.jar to classpath.
-mainEx[02Feb2025 23:16:46.219] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/mixinextras-0.3.5-63e25e1b0e82f847.jar to classpath.
-mainEx[02Feb2025 23:16:46.219] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/mods/TrueHerobrine_1.1+1.20.1.jar to classpath.
-mainEx[02Feb2025 23:16:46.221] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer io.izzel.arclight.fabric.boot.FabricBootstrap for mod arclight (key arclight_boot)
-mainEx[02Feb2025 23:16:46.221] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer io.izzel.arclight.fabric.ArclightModEntrypoint for mod arclight (key main)
-mainEx[02Feb2025 23:16:46.221] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer com.natamus.collective.fabric.config.FabricCollectiveConfigScreen for mod collective (key modmenu)
-mainEx[02Feb2025 23:16:46.222] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer com.natamus.collective.CollectiveFabricClient for mod collective (key client)
-mainEx[02Feb2025 23:16:46.222] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer com.natamus.collective.CollectiveFabric for mod collective (key main)
-mainEx[02Feb2025 23:16:46.223] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.lookup.ApiLookupImpl for mod fabric-api-lookup-api-v1 (key main)
-mainEx[02Feb2025 23:16:46.223] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.command.v1.LegacyHandler for mod fabric-command-api-v1 (key main)
-mainEx[02Feb2025 23:16:46.223] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.client.container.ScreenProviderRegistryImpl::init for mod fabric-containers-v0 (key client)
-mainEx[02Feb2025 23:16:46.224] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.attachment.AttachmentEntrypoint for mod fabric-data-attachment-api-v1 (key main)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.event.interaction.client.InteractionEventsRouterClient for mod fabric-events-interaction-v0 (key client)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.event.interaction.InteractionEventsRouter for mod fabric-events-interaction-v0 (key main)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.event.lifecycle.v0.client.LegacyClientEventInvokers for mod fabric-events-lifecycle-v0 (key client)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.event.lifecycle.v0.LegacyEventInvokers for mod fabric-events-lifecycle-v0 (key main)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.client.event.lifecycle.ClientLifecycleEventsImpl for mod fabric-lifecycle-events-v1 (key client)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.event.lifecycle.LifecycleEventsImpl for mod fabric-lifecycle-events-v1 (key main)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.networking.client.ClientNetworkingImpl::clientInit for mod fabric-networking-api-v1 (key client)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.networking.CommonPacketsImpl::init for mod fabric-networking-api-v1 (key main)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.client.CustomIngredientSyncClient for mod fabric-recipe-api-v1 (key client)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.CustomIngredientInit for mod fabric-recipe-api-v1 (key main)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.CustomIngredientSync for mod fabric-recipe-api-v1 (key main)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.client.registry.sync.FabricRegistryClientInit for mod fabric-registry-sync-v0 (key client)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.registry.sync.FabricRegistryInit for mod fabric-registry-sync-v0 (key main)
-mainEx[02Feb2025 23:16:46.225] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.screenhandler.client.ClientNetworking for mod fabric-screen-handler-api-v1 (key client)
-mainEx[02Feb2025 23:16:46.226] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer crumbs.trueherobrine.ClientInit for mod true_herobrine (key client)
-mainEx[02Feb2025 23:16:46.226] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer crumbs.trueherobrine.TrueHerobrineMod for mod true_herobrine (key main)
-mainEx[02Feb2025 23:16:46.319] [main/INFO] [FabricLoader/Mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/meow/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-mainEx[02Feb2025 23:16:46.335] [main/DEBUG] [FabricLoader/Mixin/]: Error cleaning class output directory: .mixin.out
-mainEx[02Feb2025 23:16:46.343] [main/DEBUG] [FabricLoader/Mixin/]: Initialising Mixin Platform Manager
-mainEx[02Feb2025 23:16:46.351] [main/DEBUG] [FabricLoader/Mixin/]: Adding mixin platform agents for container ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)
-mainEx[02Feb2025 23:16:46.353] [main/DEBUG] [FabricLoader/Mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)
-mainEx[02Feb2025 23:16:46.353] [main/DEBUG] [FabricLoader/Mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)
-mainEx[02Feb2025 23:16:46.354] [main/DEBUG] [FabricLoader/Mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)
-mainEx[02Feb2025 23:16:46.354] [main/DEBUG] [FabricLoader/Mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)
-mainEx[02Feb2025 23:16:46.354] [main/DEBUG] [FabricLoader/Mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)]
-mainEx[02Feb2025 23:16:46.355] [main/DEBUG] [FabricLoader/Mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)]
-mainEx[02Feb2025 23:16:46.409] [main/DEBUG] [FabricLoader/Mixin/]: Compatibility level JAVA_17 specified by mixins.arclight.fabric.json is higher than the maximum level supported by this version of mixin (JAVA_13).
-mainEx[02Feb2025 23:16:46.413] [main/INFO] [FabricLoader/Mixin/]: Compatibility level set to JAVA_17
-mainEx[02Feb2025 23:16:46.428] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-api-lookup-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.433] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-biome-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.439] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-block-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.444] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-block-view-api-v2.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.448] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-command-api-v2.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.451] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-containers-v0.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.453] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-containers-v0.accurate.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.457] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-content-registries-v0.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.460] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-crash-report-info-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.466] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-data-attachment-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.470] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-data-generation-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.473] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-dimensions-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.477] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-entity-events-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.481] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-events-interaction-v0.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.485] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-game-rule-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.491] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-item-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.494] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-item-group-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.499] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-lifecycle-events-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.502] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-loot-api-v2.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.505] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-message-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.509] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-mining-level-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.518] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-networking-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.526] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-object-builder-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.532] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-recipe-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.537] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-registry-sync-v0.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.544] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-rendering-data-attachment-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.547] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-resource-conditions-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.550] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-resource-loader-v0.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.557] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-screen-handler-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.562] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-transfer-api-v1.mixins.json does not specify "minVersion" property
-mainEx[02Feb2025 23:16:46.571] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/remappedJars/minecraft-1.20.4-0.15.11/server-intermediary.jar to classpath.
-mainEx[02Feb2025 23:16:46.571] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar to classpath.
-mainEx[02Feb2025 23:16:46.571] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar to classpath.
-mainEx[02Feb2025 23:16:46.573] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar to classpath.
-mainEx[02Feb2025 23:16:46.574] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/com/mojang/brigadier/1.2.9/brigadier-1.2.9.jar to classpath.
-mainEx[02Feb2025 23:16:46.575] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar to classpath.
-mainEx[02Feb2025 23:16:46.575] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar to classpath.
-mainEx[02Feb2025 23:16:46.576] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar to classpath.
-mainEx[02Feb2025 23:16:46.577] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar to classpath.
-mainEx[02Feb2025 23:16:46.580] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar to classpath.
-mainEx[02Feb2025 23:16:46.580] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar to classpath.
-mainEx[02Feb2025 23:16:46.580] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar to classpath.
-mainEx[02Feb2025 23:16:46.581] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar to classpath.
-mainEx[02Feb2025 23:16:46.581] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar to classpath.
-mainEx[02Feb2025 23:16:46.581] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar to classpath.
-mainEx[02Feb2025 23:16:46.581] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar to classpath.
-mainEx[02Feb2025 23:16:46.582] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar to classpath.
-mainEx[02Feb2025 23:16:46.582] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar to classpath.
-mainEx[02Feb2025 23:16:46.584] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar to classpath.
-mainEx[02Feb2025 23:16:46.584] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar to classpath.
-mainEx[02Feb2025 23:16:46.584] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar to classpath.
-mainEx[02Feb2025 23:16:46.585] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar to classpath.
-mainEx[02Feb2025 23:16:46.585] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar to classpath.
-mainEx[02Feb2025 23:16:46.595] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-mainEx[02Feb2025 23:16:46.595] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixins.arclight.fabric.json
-mainEx[02Feb2025 23:16:46.671] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
-mainEx[02Feb2025 23:16:46.674] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
-mainEx[02Feb2025 23:16:46.675] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
-mainEx[02Feb2025 23:16:46.675] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
-mainEx[02Feb2025 23:16:46.676] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
-mainEx[02Feb2025 23:16:46.677] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
-mainEx[02Feb2025 23:16:46.678] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @Eject with io.izzel.arclight.mixin.injector.EjectorInfo
-mainEx[02Feb2025 23:16:46.679] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @Decorate with io.izzel.arclight.mixin.injector.DecoratorInfo
-mainEx[02Feb2025 23:16:47.078] [main/INFO] [Arclight/]: Using locale en_ and fallback locale en_us
-mainEx[02Feb2025 23:16:47.083] [main/INFO] [Arclight/]: 
+mainEx[02Feb2025 23:18:10.593] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/.arclight/mod_file/arclight-1.20.4-1.0.4-80ec5df.jar to classpath.
+mainEx[02Feb2025 23:18:10.594] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/mods/collective-1.20.1-7.87.jar to classpath.
+mainEx[02Feb2025 23:18:10.594] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-api/fabric-api/0.97.1+1.20.4/fabric-api-0.97.1+1.20.4.jar to classpath.
+mainEx[02Feb2025 23:18:10.594] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-api-base-0.4.37+78d798af4f-2115d2d8a1e12fee.jar to classpath.
+mainEx[02Feb2025 23:18:10.594] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-api-lookup-api-v1-1.6.50+82b1bb3e4f-d1d278ce7cd219bc.jar to classpath.
+mainEx[02Feb2025 23:18:10.595] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-biome-api-v1-13.0.17+78d798af4f-beca9400fdd44a9a.jar to classpath.
+mainEx[02Feb2025 23:18:10.595] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-block-api-v1-1.0.17+3e2216cb4f-4f08fb51782b398.jar to classpath.
+mainEx[02Feb2025 23:18:10.595] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-block-view-api-v2-1.0.5+78d798af4f-85fba6048136699a.jar to classpath.
+mainEx[02Feb2025 23:18:10.597] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-command-api-v1-1.2.42+f71b366f4f-e71f1dc5d089dde5.jar to classpath.
+mainEx[02Feb2025 23:18:10.597] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-command-api-v2-2.2.21+78d798af4f-35dab36c737a7918.jar to classpath.
+mainEx[02Feb2025 23:18:10.597] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-commands-v0-0.2.59+df3654b34f-b45e35f0979674fd.jar to classpath.
+mainEx[02Feb2025 23:18:10.598] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-containers-v0-0.1.87+df3654b34f-603e67fedd8bdc14.jar to classpath.
+mainEx[02Feb2025 23:18:10.598] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-content-registries-v0-5.0+78d798af4f-db658dfab04614d0.jar to classpath.
+mainEx[02Feb2025 23:18:10.598] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-convention-tags-v1-1.5.11+78d798af4f-3697bd45c314762.jar to classpath.
+mainEx[02Feb2025 23:18:10.599] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-crash-report-info-v1-0.2.+78d798af4f-aa4249e2e3e483cd.jar to classpath.
+mainEx[02Feb2025 23:18:10.599] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-data-attachment-api-v1-1.+b90db5744f-f008f4ac2aff402c.jar to classpath.
+mainEx[02Feb2025 23:18:10.600] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-data-generation-api-v1-13+5c0133444f-8770baa3b82ce46b.jar to classpath.
+mainEx[02Feb2025 23:18:10.600] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-dimensions-v1-2.1.63+6605d1a84f-d11ad634a5fddc5b.jar to classpath.
+mainEx[02Feb2025 23:18:10.600] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-entity-events-v1-1.6.2+09fc25014f-9d3cafd2861cad2f.jar to classpath.
+mainEx[02Feb2025 23:18:10.601] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-events-interaction-v0-0.7+389931eb4f-8c89a81acb130984.jar to classpath.
+mainEx[02Feb2025 23:18:10.601] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-events-lifecycle-v0-0.2.7+df3654b34f-92fea7befc1f6232.jar to classpath.
+mainEx[02Feb2025 23:18:10.601] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-game-rule-api-v1-1.0.47+78d798af4f-f79253fd925b07e9.jar to classpath.
+mainEx[02Feb2025 23:18:10.602] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-item-api-v1-2.3.0+bcdd12964f-8c652f38c15bb990.jar to classpath.
+mainEx[02Feb2025 23:18:10.602] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-item-group-api-v1-4.0.27+ee30b13a4f-154ad89205aa98ae.jar to classpath.
+mainEx[02Feb2025 23:18:10.602] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-lifecycle-events-v1-2.3.1+a67ffb5d4f-acb38e9ac085196e.jar to classpath.
+mainEx[02Feb2025 23:18:10.602] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-loot-api-v2-2.1.10+78d798af4f-9c9d712cba86e505.jar to classpath.
+mainEx[02Feb2025 23:18:10.602] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-message-api-v1-6.0.6+78d798af4f-be4a4960cdccb456.jar to classpath.
+mainEx[02Feb2025 23:18:10.603] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-mining-level-api-v1-2.1.6+78d798af4f-4216ada4e2ef0d93.jar to classpath.
+mainEx[02Feb2025 23:18:10.603] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-networking-api-v1-3.1.8+2e5ac5484f-f085a2cd2ccf2cb1.jar to classpath.
+mainEx[02Feb2025 23:18:10.603] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-object-builder-api-v1-13.+dba1195c4f-25526dffe20d8531.jar to classpath.
+mainEx[02Feb2025 23:18:10.604] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-particles-v1-1.1.8+78d798af4f-d5cf53142d49b85a.jar to classpath.
+mainEx[02Feb2025 23:18:10.604] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-recipe-api-v1-2.0.21+78d798af4f-e5491325e86d0c04.jar to classpath.
+mainEx[02Feb2025 23:18:10.604] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-registry-sync-v0-4.0.20+ee30b13a4f-bdc631c79bf85e56.jar to classpath.
+mainEx[02Feb2025 23:18:10.605] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-rendering-data-attachment+73761d2e4f-69edb0c13d824617.jar to classpath.
+mainEx[02Feb2025 23:18:10.605] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-rendering-fluids-v1-3.1.2+e761c6694f-67eec97688c14b85.jar to classpath.
+mainEx[02Feb2025 23:18:10.605] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-resource-conditions-api-v+78d798af4f-9e3117f13f1c165c.jar to classpath.
+mainEx[02Feb2025 23:18:10.606] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-resource-loader-v0-0.11.2+ee30b13a4f-626d7a4c99f27375.jar to classpath.
+mainEx[02Feb2025 23:18:10.606] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-screen-handler-api-v1-1.3+78d798af4f-39ef33077c363c14.jar to classpath.
+mainEx[02Feb2025 23:18:10.606] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-transfer-api-v1-4.0.12+90f2d7b14f-6973f444ba7763.jar to classpath.
+mainEx[02Feb2025 23:18:10.607] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/fabric-transitive-access-widener+78d798af4f-20b39e996c6a2d62.jar to classpath.
+mainEx[02Feb2025 23:18:10.607] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/processedMods/mixinextras-0.3.5-63e25e1b0e82f847.jar to classpath.
+mainEx[02Feb2025 23:18:10.607] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/mods/TrueHerobrine_1.1+1.20.1.jar to classpath.
+mainEx[02Feb2025 23:18:10.609] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer io.izzel.arclight.fabric.boot.FabricBootstrap for mod arclight (key arclight_boot)
+mainEx[02Feb2025 23:18:10.610] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer io.izzel.arclight.fabric.ArclightModEntrypoint for mod arclight (key main)
+mainEx[02Feb2025 23:18:10.611] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer com.natamus.collective.fabric.config.FabricCollectiveConfigScreen for mod collective (key modmenu)
+mainEx[02Feb2025 23:18:10.611] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer com.natamus.collective.CollectiveFabricClient for mod collective (key client)
+mainEx[02Feb2025 23:18:10.611] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer com.natamus.collective.CollectiveFabric for mod collective (key main)
+mainEx[02Feb2025 23:18:10.611] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.lookup.ApiLookupImpl for mod fabric-api-lookup-api-v1 (key main)
+mainEx[02Feb2025 23:18:10.612] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.command.v1.LegacyHandler for mod fabric-command-api-v1 (key main)
+mainEx[02Feb2025 23:18:10.613] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.client.container.ScreenProviderRegistryImpl::init for mod fabric-containers-v0 (key client)
+mainEx[02Feb2025 23:18:10.613] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.attachment.AttachmentEntrypoint for mod fabric-data-attachment-api-v1 (key main)
+mainEx[02Feb2025 23:18:10.614] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.event.interaction.client.InteractionEventsRouterClient for mod fabric-events-interaction-v0 (key client)
+mainEx[02Feb2025 23:18:10.614] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.event.interaction.InteractionEventsRouter for mod fabric-events-interaction-v0 (key main)
+mainEx[02Feb2025 23:18:10.615] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.event.lifecycle.v0.client.LegacyClientEventInvokers for mod fabric-events-lifecycle-v0 (key client)
+mainEx[02Feb2025 23:18:10.615] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.event.lifecycle.v0.LegacyEventInvokers for mod fabric-events-lifecycle-v0 (key main)
+mainEx[02Feb2025 23:18:10.615] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.client.event.lifecycle.ClientLifecycleEventsImpl for mod fabric-lifecycle-events-v1 (key client)
+mainEx[02Feb2025 23:18:10.616] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.event.lifecycle.LifecycleEventsImpl for mod fabric-lifecycle-events-v1 (key main)
+mainEx[02Feb2025 23:18:10.616] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.networking.client.ClientNetworkingImpl::clientInit for mod fabric-networking-api-v1 (key client)
+mainEx[02Feb2025 23:18:10.617] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.networking.CommonPacketsImpl::init for mod fabric-networking-api-v1 (key main)
+mainEx[02Feb2025 23:18:10.617] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.client.CustomIngredientSyncClient for mod fabric-recipe-api-v1 (key client)
+mainEx[02Feb2025 23:18:10.618] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.CustomIngredientInit for mod fabric-recipe-api-v1 (key main)
+mainEx[02Feb2025 23:18:10.618] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.recipe.ingredient.CustomIngredientSync for mod fabric-recipe-api-v1 (key main)
+mainEx[02Feb2025 23:18:10.618] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.client.registry.sync.FabricRegistryClientInit for mod fabric-registry-sync-v0 (key client)
+mainEx[02Feb2025 23:18:10.618] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.registry.sync.FabricRegistryInit for mod fabric-registry-sync-v0 (key main)
+mainEx[02Feb2025 23:18:10.619] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer net.fabricmc.fabric.impl.screenhandler.client.ClientNetworking for mod fabric-screen-handler-api-v1 (key client)
+mainEx[02Feb2025 23:18:10.619] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer crumbs.trueherobrine.ClientInit for mod true_herobrine (key client)
+mainEx[02Feb2025 23:18:10.619] [main/DEBUG] [FabricLoader/Entrypoint/]: Registering new-style initializer crumbs.trueherobrine.TrueHerobrineMod for mod true_herobrine (key main)
+mainEx[02Feb2025 23:18:10.735] [main/INFO] [FabricLoader/Mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/meow/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+mainEx[02Feb2025 23:18:10.752] [main/DEBUG] [FabricLoader/Mixin/]: Error cleaning class output directory: .mixin.out
+mainEx[02Feb2025 23:18:10.756] [main/DEBUG] [FabricLoader/Mixin/]: Initialising Mixin Platform Manager
+mainEx[02Feb2025 23:18:10.759] [main/DEBUG] [FabricLoader/Mixin/]: Adding mixin platform agents for container ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)
+mainEx[02Feb2025 23:18:10.761] [main/DEBUG] [FabricLoader/Mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)
+mainEx[02Feb2025 23:18:10.762] [main/DEBUG] [FabricLoader/Mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)
+mainEx[02Feb2025 23:18:10.762] [main/DEBUG] [FabricLoader/Mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)
+mainEx[02Feb2025 23:18:10.762] [main/DEBUG] [FabricLoader/Mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)
+mainEx[02Feb2025 23:18:10.762] [main/DEBUG] [FabricLoader/Mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)]
+mainEx[02Feb2025 23:18:10.763] [main/DEBUG] [FabricLoader/Mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///workspaces/meow/servidor_minecraft/libraries/net/fabricmc/fabric-loader/0.15.11/fabric-loader-0.15.11.jar)]
+mainEx[02Feb2025 23:18:10.814] [main/DEBUG] [FabricLoader/Mixin/]: Compatibility level JAVA_17 specified by mixins.arclight.fabric.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+mainEx[02Feb2025 23:18:10.818] [main/INFO] [FabricLoader/Mixin/]: Compatibility level set to JAVA_17
+mainEx[02Feb2025 23:18:10.840] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-api-lookup-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.848] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-biome-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.851] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-block-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.857] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-block-view-api-v2.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.862] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-command-api-v2.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.869] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-containers-v0.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.872] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-containers-v0.accurate.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.878] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-content-registries-v0.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.884] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-crash-report-info-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.887] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-data-attachment-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.890] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-data-generation-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.893] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-dimensions-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.896] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-entity-events-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.899] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-events-interaction-v0.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.902] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-game-rule-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.905] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-item-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.908] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-item-group-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.911] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-lifecycle-events-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.914] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-loot-api-v2.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.917] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-message-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.920] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-mining-level-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.923] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-networking-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.929] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-object-builder-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.934] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-recipe-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.941] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-registry-sync-v0.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.944] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-rendering-data-attachment-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.949] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-resource-conditions-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.952] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-resource-loader-v0.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.955] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-screen-handler-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.958] [main/DEBUG] [FabricLoader/Mixin/]: Mixin config fabric-transfer-api-v1.mixins.json does not specify "minVersion" property
+mainEx[02Feb2025 23:18:10.963] [main/DEBUG] [FabricLoader/Knot/]: Adding ./.fabric/remappedJars/minecraft-1.20.4-0.15.11/server-intermediary.jar to classpath.
+mainEx[02Feb2025 23:18:10.967] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/com/github/oshi/oshi-core/6.4.5/oshi-core-6.4.5.jar to classpath.
+mainEx[02Feb2025 23:18:10.967] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar to classpath.
+mainEx[02Feb2025 23:18:10.969] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar to classpath.
+mainEx[02Feb2025 23:18:10.969] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/com/mojang/brigadier/1.2.9/brigadier-1.2.9.jar to classpath.
+mainEx[02Feb2025 23:18:10.970] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar to classpath.
+mainEx[02Feb2025 23:18:10.970] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar to classpath.
+mainEx[02Feb2025 23:18:10.971] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar to classpath.
+mainEx[02Feb2025 23:18:10.972] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar to classpath.
+mainEx[02Feb2025 23:18:10.975] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar to classpath.
+mainEx[02Feb2025 23:18:10.975] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar to classpath.
+mainEx[02Feb2025 23:18:10.975] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar to classpath.
+mainEx[02Feb2025 23:18:10.976] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar to classpath.
+mainEx[02Feb2025 23:18:10.976] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar to classpath.
+mainEx[02Feb2025 23:18:10.977] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar to classpath.
+mainEx[02Feb2025 23:18:10.977] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar to classpath.
+mainEx[02Feb2025 23:18:10.977] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar to classpath.
+mainEx[02Feb2025 23:18:10.978] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar to classpath.
+mainEx[02Feb2025 23:18:10.978] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar to classpath.
+mainEx[02Feb2025 23:18:10.979] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar to classpath.
+mainEx[02Feb2025 23:18:10.979] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar to classpath.
+mainEx[02Feb2025 23:18:10.981] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar to classpath.
+mainEx[02Feb2025 23:18:10.981] [main/DEBUG] [FabricLoader/Knot/]: Adding /workspaces/meow/servidor_minecraft/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar to classpath.
+mainEx[02Feb2025 23:18:10.987] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+mainEx[02Feb2025 23:18:10.987] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixins.arclight.fabric.json
+mainEx[02Feb2025 23:18:11.059] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+mainEx[02Feb2025 23:18:11.061] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+mainEx[02Feb2025 23:18:11.063] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+mainEx[02Feb2025 23:18:11.065] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+mainEx[02Feb2025 23:18:11.066] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+mainEx[02Feb2025 23:18:11.067] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+mainEx[02Feb2025 23:18:11.067] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @Eject with io.izzel.arclight.mixin.injector.EjectorInfo
+mainEx[02Feb2025 23:18:11.069] [main/DEBUG] [FabricLoader/Mixin/]: Registering new injector for @Decorate with io.izzel.arclight.mixin.injector.DecoratorInfo
+mainEx[02Feb2025 23:18:11.548] [main/INFO] [Arclight/]: Using locale en_ and fallback locale en_us
+mainEx[02Feb2025 23:18:11.560] [main/INFO] [Arclight/]: 
 
        ___           ___     __   /\
       /   | ________/ (_)__ / /  / /
@@ -221,89 +221,89 @@ mainEx[02Feb2025 23:16:47.083] [main/INFO] [Arclight/]:
     Version 附耳 (Whisper) / arclight-1.20.4-1.0.4-80ec5df
     Build Date 2024-06-14 12:05:55
 
-mainEx[02Feb2025 23:16:47.090] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixins.arclight.core.json
-mainEx[02Feb2025 23:16:47.114] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixins.arclight.bukkit.json
-mainEx[02Feb2025 23:16:47.130] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixins.arclight.vanilla.json
-mainEx[02Feb2025 23:16:47.145] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixins.arclight.impl.optimization.json
-mainEx[02Feb2025 23:16:47.160] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config collective_fabric.mixins.json
-mainEx[02Feb2025 23:16:47.162] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config collective_fabric.crop.mixins.json
-mainEx[02Feb2025 23:16:47.164] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-api-lookup-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.165] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-biome-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.166] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-block-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.167] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-block-view-api-v2.mixins.json
-mainEx[02Feb2025 23:16:47.167] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-command-api-v2.mixins.json
-mainEx[02Feb2025 23:16:47.168] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-containers-v0.mixins.json
-mainEx[02Feb2025 23:16:47.169] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-containers-v0.accurate.mixins.json
-mainEx[02Feb2025 23:16:47.169] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-content-registries-v0.mixins.json
-mainEx[02Feb2025 23:16:47.170] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-crash-report-info-v1.mixins.json
-mainEx[02Feb2025 23:16:47.171] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-data-attachment-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.172] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-data-generation-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.172] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-dimensions-v1.mixins.json
-mainEx[02Feb2025 23:16:47.174] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-entity-events-v1.mixins.json
-mainEx[02Feb2025 23:16:47.176] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-events-interaction-v0.mixins.json
-mainEx[02Feb2025 23:16:47.176] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-game-rule-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.177] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-item-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.178] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-item-group-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.179] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-lifecycle-events-v1.mixins.json
-mainEx[02Feb2025 23:16:47.180] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-loot-api-v2.mixins.json
-mainEx[02Feb2025 23:16:47.180] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-message-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.181] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-mining-level-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.182] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-networking-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.183] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-object-builder-v1.mixins.json
-mainEx[02Feb2025 23:16:47.184] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-recipe-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.185] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-registry-sync-v0.mixins.json
-mainEx[02Feb2025 23:16:47.185] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-rendering-data-attachment-v1.mixins.json
-mainEx[02Feb2025 23:16:47.186] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-resource-conditions-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.186] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-resource-loader-v0.mixins.json
-mainEx[02Feb2025 23:16:47.187] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-screen-handler-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.188] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-transfer-api-v1.mixins.json
-mainEx[02Feb2025 23:16:47.189] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixinextras.init.mixins.json
-mainEx[02Feb2025 23:16:47.208] [main/DEBUG] [FabricLoader/MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
-mainEx[02Feb2025 23:16:47.233] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config true_herobrine.mixins.json
-mainEx[02Feb2025 23:16:47.235] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins.arclight.fabric.json (11)
-mainEx[02Feb2025 23:16:47.371] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins.arclight.core.json (528)
-mainEx[02Feb2025 23:16:48.290] [main/DEBUG] [FabricLoader/Mixin/]: @Mixin target net/minecraft/class_2281$2$1 is public in mixins.arclight.core.json:world.level.block.ChestBlock2_1Mixin from mod arclight and should be specified in value
-mainEx[02Feb2025 23:16:48.393] [main/DEBUG] [FabricLoader/Mixin/]: @Mixin target net/minecraft/class_3722$1 is public in mixins.arclight.core.json:world.level.block.entity.LecternTileEntity1Mixin from mod arclight and should be specified in value
-mainEx[02Feb2025 23:16:48.458] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins.arclight.bukkit.json (35)
-mainEx[02Feb2025 23:16:48.616] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins.arclight.vanilla.json (17)
-mainEx[02Feb2025 23:16:48.623] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins.arclight.impl.optimization.json (24)
-mainEx[02Feb2025 23:16:48.637] [main/DEBUG] [FabricLoader/Mixin/]: Preparing collective_fabric.mixins.json (39)
-mainEx[02Feb2025 23:16:48.645] [main/DEBUG] [FabricLoader/Mixin/]: Preparing collective_fabric.crop.mixins.json (10)
-mainEx[02Feb2025 23:16:48.647] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-api-lookup-api-v1.mixins.json (2)
-mainEx[02Feb2025 23:16:48.649] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-biome-api-v1.mixins.json (9)
-mainEx[02Feb2025 23:16:48.659] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-block-api-v1.mixins.json (4)
-mainEx[02Feb2025 23:16:48.661] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-block-view-api-v2.mixins.json (2)
-mainEx[02Feb2025 23:16:48.662] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-command-api-v2.mixins.json (5)
-mainEx[02Feb2025 23:16:48.667] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-containers-v0.mixins.json (1)
-mainEx[02Feb2025 23:16:48.668] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-containers-v0.accurate.mixins.json (1)
-mainEx[02Feb2025 23:16:48.668] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-content-registries-v0.mixins.json (11)
-mainEx[02Feb2025 23:16:48.677] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-crash-report-info-v1.mixins.json (1)
-mainEx[02Feb2025 23:16:48.679] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-data-attachment-api-v1.mixins.json (8)
-mainEx[02Feb2025 23:16:48.683] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-data-generation-api-v1.mixins.json (6)
-mainEx[02Feb2025 23:16:48.695] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-dimensions-v1.mixins.json (5)
-mainEx[02Feb2025 23:16:48.702] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-entity-events-v1.mixins.json (12)
-mainEx[02Feb2025 23:16:48.707] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-events-interaction-v0.mixins.json (4)
-mainEx[02Feb2025 23:16:48.709] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-game-rule-api-v1.mixins.json (6)
-mainEx[02Feb2025 23:16:48.714] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-item-api-v1.mixins.json (18)
-mainEx[02Feb2025 23:16:48.727] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-item-group-api-v1.mixins.json (3)
-mainEx[02Feb2025 23:16:48.739] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-lifecycle-events-v1.mixins.json (9)
-mainEx[02Feb2025 23:16:48.742] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-loot-api-v2.mixins.json (5)
-mainEx[02Feb2025 23:16:48.746] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-message-api-v1.mixins.json (2)
-mainEx[02Feb2025 23:16:48.747] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-mining-level-api-v1.mixins.json (3)
-mainEx[02Feb2025 23:16:48.749] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-networking-api-v1.mixins.json (17)
-mainEx[02Feb2025 23:16:48.759] [main/DEBUG] [FabricLoader/Mixin/]: @Mixin target net/minecraft/class_2539$class_4532 is public in fabric-networking-api-v1.mixins.json:NetworkStateInternalPacketHandlerMixin from mod fabric-networking-api-v1 and should be specified in value
-mainEx[02Feb2025 23:16:48.759] [main/DEBUG] [FabricLoader/Mixin/]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor from mod fabric-networking-api-v1 and should be specified in value
-mainEx[02Feb2025 23:16:48.759] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-object-builder-v1.mixins.json (10)
-mainEx[02Feb2025 23:16:48.768] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-recipe-api-v1.mixins.json (3)
-mainEx[02Feb2025 23:16:48.769] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-registry-sync-v0.mixins.json (13)
-mainEx[02Feb2025 23:16:48.784] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-rendering-data-attachment-v1.mixins.json (2)
-mainEx[02Feb2025 23:16:48.785] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-resource-conditions-api-v1.mixins.json (6)
-mainEx[02Feb2025 23:16:48.787] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-resource-loader-v0.mixins.json (11)
-mainEx[02Feb2025 23:16:48.799] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-screen-handler-api-v1.mixins.json (2)
-mainEx[02Feb2025 23:16:48.800] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-transfer-api-v1.mixins.json (12)
-mainEx[02Feb2025 23:16:48.804] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixinextras.init.mixins.json (0)
-mainEx[02Feb2025 23:16:48.804] [main/DEBUG] [FabricLoader/Mixin/]: Preparing true_herobrine.mixins.json (1)
-mainEx[02Feb2025 23:16:48.806] [main/ERROR] [FabricLoader/Mixin/]: Mixin prepare for mod true_herobrine failed preparing TrueHerobrineModRepairItemRecipeMixin in true_herobrine.mixins.json: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException The specified mixin 'crumbs.trueherobrine.mixins.TrueHerobrineModRepairItemRecipeMixin' was not found
+mainEx[02Feb2025 23:18:11.567] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixins.arclight.core.json
+mainEx[02Feb2025 23:18:11.603] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixins.arclight.bukkit.json
+mainEx[02Feb2025 23:18:11.621] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixins.arclight.vanilla.json
+mainEx[02Feb2025 23:18:11.640] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixins.arclight.impl.optimization.json
+mainEx[02Feb2025 23:18:11.657] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config collective_fabric.mixins.json
+mainEx[02Feb2025 23:18:11.658] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config collective_fabric.crop.mixins.json
+mainEx[02Feb2025 23:18:11.660] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-api-lookup-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.662] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-biome-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.663] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-block-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.665] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-block-view-api-v2.mixins.json
+mainEx[02Feb2025 23:18:11.666] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-command-api-v2.mixins.json
+mainEx[02Feb2025 23:18:11.667] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-containers-v0.mixins.json
+mainEx[02Feb2025 23:18:11.668] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-containers-v0.accurate.mixins.json
+mainEx[02Feb2025 23:18:11.668] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-content-registries-v0.mixins.json
+mainEx[02Feb2025 23:18:11.669] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-crash-report-info-v1.mixins.json
+mainEx[02Feb2025 23:18:11.673] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-data-attachment-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.673] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-data-generation-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.674] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-dimensions-v1.mixins.json
+mainEx[02Feb2025 23:18:11.675] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-entity-events-v1.mixins.json
+mainEx[02Feb2025 23:18:11.676] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-events-interaction-v0.mixins.json
+mainEx[02Feb2025 23:18:11.677] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-game-rule-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.679] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-item-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.680] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-item-group-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.681] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-lifecycle-events-v1.mixins.json
+mainEx[02Feb2025 23:18:11.684] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-loot-api-v2.mixins.json
+mainEx[02Feb2025 23:18:11.685] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-message-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.686] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-mining-level-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.687] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-networking-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.688] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-object-builder-v1.mixins.json
+mainEx[02Feb2025 23:18:11.689] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-recipe-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.690] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-registry-sync-v0.mixins.json
+mainEx[02Feb2025 23:18:11.690] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-rendering-data-attachment-v1.mixins.json
+mainEx[02Feb2025 23:18:11.692] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-resource-conditions-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.693] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-resource-loader-v0.mixins.json
+mainEx[02Feb2025 23:18:11.694] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-screen-handler-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.695] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config fabric-transfer-api-v1.mixins.json
+mainEx[02Feb2025 23:18:11.697] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config mixinextras.init.mixins.json
+mainEx[02Feb2025 23:18:11.741] [main/DEBUG] [FabricLoader/MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
+mainEx[02Feb2025 23:18:11.776] [main/DEBUG] [FabricLoader/Mixin/]: Selecting config true_herobrine.mixins.json
+mainEx[02Feb2025 23:18:11.778] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins.arclight.fabric.json (11)
+mainEx[02Feb2025 23:18:11.966] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins.arclight.core.json (528)
+mainEx[02Feb2025 23:18:12.872] [main/DEBUG] [FabricLoader/Mixin/]: @Mixin target net/minecraft/class_2281$2$1 is public in mixins.arclight.core.json:world.level.block.ChestBlock2_1Mixin from mod arclight and should be specified in value
+mainEx[02Feb2025 23:18:12.987] [main/DEBUG] [FabricLoader/Mixin/]: @Mixin target net/minecraft/class_3722$1 is public in mixins.arclight.core.json:world.level.block.entity.LecternTileEntity1Mixin from mod arclight and should be specified in value
+mainEx[02Feb2025 23:18:13.058] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins.arclight.bukkit.json (35)
+mainEx[02Feb2025 23:18:13.298] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins.arclight.vanilla.json (17)
+mainEx[02Feb2025 23:18:13.304] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixins.arclight.impl.optimization.json (24)
+mainEx[02Feb2025 23:18:13.326] [main/DEBUG] [FabricLoader/Mixin/]: Preparing collective_fabric.mixins.json (39)
+mainEx[02Feb2025 23:18:13.343] [main/DEBUG] [FabricLoader/Mixin/]: Preparing collective_fabric.crop.mixins.json (10)
+mainEx[02Feb2025 23:18:13.345] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-api-lookup-api-v1.mixins.json (2)
+mainEx[02Feb2025 23:18:13.354] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-biome-api-v1.mixins.json (9)
+mainEx[02Feb2025 23:18:13.361] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-block-api-v1.mixins.json (4)
+mainEx[02Feb2025 23:18:13.362] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-block-view-api-v2.mixins.json (2)
+mainEx[02Feb2025 23:18:13.364] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-command-api-v2.mixins.json (5)
+mainEx[02Feb2025 23:18:13.368] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-containers-v0.mixins.json (1)
+mainEx[02Feb2025 23:18:13.368] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-containers-v0.accurate.mixins.json (1)
+mainEx[02Feb2025 23:18:13.369] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-content-registries-v0.mixins.json (11)
+mainEx[02Feb2025 23:18:13.376] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-crash-report-info-v1.mixins.json (1)
+mainEx[02Feb2025 23:18:13.378] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-data-attachment-api-v1.mixins.json (8)
+mainEx[02Feb2025 23:18:13.381] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-data-generation-api-v1.mixins.json (6)
+mainEx[02Feb2025 23:18:13.391] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-dimensions-v1.mixins.json (5)
+mainEx[02Feb2025 23:18:13.395] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-entity-events-v1.mixins.json (12)
+mainEx[02Feb2025 23:18:13.398] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-events-interaction-v0.mixins.json (4)
+mainEx[02Feb2025 23:18:13.399] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-game-rule-api-v1.mixins.json (6)
+mainEx[02Feb2025 23:18:13.403] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-item-api-v1.mixins.json (18)
+mainEx[02Feb2025 23:18:13.413] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-item-group-api-v1.mixins.json (3)
+mainEx[02Feb2025 23:18:13.421] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-lifecycle-events-v1.mixins.json (9)
+mainEx[02Feb2025 23:18:13.424] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-loot-api-v2.mixins.json (5)
+mainEx[02Feb2025 23:18:13.441] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-message-api-v1.mixins.json (2)
+mainEx[02Feb2025 23:18:13.442] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-mining-level-api-v1.mixins.json (3)
+mainEx[02Feb2025 23:18:13.444] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-networking-api-v1.mixins.json (17)
+mainEx[02Feb2025 23:18:13.468] [main/DEBUG] [FabricLoader/Mixin/]: @Mixin target net/minecraft/class_2539$class_4532 is public in fabric-networking-api-v1.mixins.json:NetworkStateInternalPacketHandlerMixin from mod fabric-networking-api-v1 and should be specified in value
+mainEx[02Feb2025 23:18:13.468] [main/DEBUG] [FabricLoader/Mixin/]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor from mod fabric-networking-api-v1 and should be specified in value
+mainEx[02Feb2025 23:18:13.468] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-object-builder-v1.mixins.json (10)
+mainEx[02Feb2025 23:18:13.476] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-recipe-api-v1.mixins.json (3)
+mainEx[02Feb2025 23:18:13.482] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-registry-sync-v0.mixins.json (13)
+mainEx[02Feb2025 23:18:13.499] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-rendering-data-attachment-v1.mixins.json (2)
+mainEx[02Feb2025 23:18:13.500] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-resource-conditions-api-v1.mixins.json (6)
+mainEx[02Feb2025 23:18:13.503] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-resource-loader-v0.mixins.json (11)
+mainEx[02Feb2025 23:18:13.513] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-screen-handler-api-v1.mixins.json (2)
+mainEx[02Feb2025 23:18:13.514] [main/DEBUG] [FabricLoader/Mixin/]: Preparing fabric-transfer-api-v1.mixins.json (12)
+mainEx[02Feb2025 23:18:13.518] [main/DEBUG] [FabricLoader/Mixin/]: Preparing mixinextras.init.mixins.json (0)
+mainEx[02Feb2025 23:18:13.518] [main/DEBUG] [FabricLoader/Mixin/]: Preparing true_herobrine.mixins.json (1)
+mainEx[02Feb2025 23:18:13.523] [main/ERROR] [FabricLoader/Mixin/]: Mixin prepare for mod true_herobrine failed preparing TrueHerobrineModRepairItemRecipeMixin in true_herobrine.mixins.json: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException The specified mixin 'crumbs.trueherobrine.mixins.TrueHerobrineModRepairItemRecipeMixin' was not found
 mainEx org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: The specified mixin 'crumbs.trueherobrine.mixins.TrueHerobrineModRepairItemRecipeMixin' was not found
 	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:865) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
 	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:852) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
@@ -329,7 +329,7 @@ Caused by: java.lang.ClassNotFoundException: The specified mixin 'crumbs.trueher
 	at org.spongepowered.asm.mixin.transformer.MixinInfo.loadMixinClass(MixinInfo.java:1314) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
 	at org.spongepowered.asm.mixin.transformer.MixinInfo.<init>(MixinInfo.java:858) ~[sponge-mixin-0.13.3+mixin.0.8.5.jar:0.13.3+mixin.0.8.5]
 	... 19 more
-[02Feb2025 23:16:48.823] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running all shutdown-hook tasks
-JLine Shutdown HookEx[02Feb2025 23:16:48.825] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running task: org.jline.terminal.impl.PosixSysTerminal$$Lambda/0x000070dee0180ee8@4806468c
-JLine Shutdown HookEx[02Feb2025 23:16:48.825] [JLine Shutdown Hook/DEBUG] [org.jline/]: Removing shutdown-hook: Thread[#22,JLine Shutdown Hook,5,main]
+[02Feb2025 23:18:13.547] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running all shutdown-hook tasks
+JLine Shutdown HookEx[02Feb2025 23:18:13.547] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running task: org.jline.terminal.impl.PosixSysTerminal$$Lambda/0x000078f3d8180ee8@61da9f4f
+JLine Shutdown HookEx[02Feb2025 23:18:13.548] [JLine Shutdown Hook/DEBUG] [org.jline/]: Removing shutdown-hook: Thread[#22,JLine Shutdown Hook,5,main]
 JLine Shutdown HookEx
