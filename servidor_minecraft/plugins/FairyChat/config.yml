@@ -29,14 +29,16 @@ database:
 # <sender_displayname> - The display name of the player who sent the message
 # <message> - The message that was sent
 # <server_name> - The server name that was configured in the config.yml
-chatFormat: <#5E548E><sender_displayname></#5E548E> <dark_gray>»</dark_gray> <gray><message></gray>
+chatFormat: <yellow> ★ <#ffffff><sender_displayname></#ffffff> <dark_gray>»</dark_gray>
+  <white><message></yellow>
 # Define formats based on the player's group.
 # Supported permission systems: LuckPerms
 # You can use any placeholder from PlaceholderAPI or MiniPlaceholder
 # To use placeholders from PlaceholderAPI, use the following format:
 # <papi:(placeholder name)> e.g. <papi:player_displayname>
 groupFormats:
-  admin: <#5E548E><sender_displayname></#5E548E> <dark_gray>»</dark_gray> <gray><message></gray>
+  admin: <yellow> ★ <#ffffff><sender_displayname></#d3e092> <dark_gray>»</dark_gray>
+    <white><message></yellow>
 # Should the player chat messages be displayed in the console when sent via Redis?
 displayChatInConsole: true
 # Configuration for private messages.
@@ -66,7 +68,7 @@ broadcast:
   format: <dark_gray>[<gradient:#BE95C4:#9F86C0:#5E548E>Broadcast</gradient>]</dark_gray>
     <gray><message></gray>
 # Enable this if you have other plugins that messes with the chat and introduces legacy chat colors
-legacyColorSupport: false
+legacyColorSupport: true
 # Configuration for custom messages.
 customMessages:
   # If you want to broadcast the messages to all servers via redis.

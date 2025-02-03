@@ -4,13 +4,11 @@ header-footer:
   header:
     - "<#FFFFFF>&m                                                </#FFFF00>"
     - "&d&l1&5&lBlockphobia"
-    - "&8&l>> %animation:Welcome%&7 &l%player%&8&l! &8&l<<"
     - "&7Online players: &f%online%"
     - ""
   footer:
-    - "%animation:time%"
-    - "&7Ping: %ping%"
-    - "&8&l Used memory: %memory-used% MB / %memory-max% MB"
+    - "&fPing: %ping%"
+    - ""
     - ""
     - "&7:gamto:"
     - "<#FFFFFF>&m                                                </#FFFF00>"
@@ -53,13 +51,13 @@ scoreboard-teams:
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Playerlist-Objective
 playerlist-objective:
   enabled: true
-  value: "%ping%"
-  fancy-value: "&7Ping: %ping%"
+  value: "%player_health%"
+  fancy-value: "%player_health%"
   disable-condition: '%world%=disabledworld'
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
 belowname-objective:
-  enabled: false
+  enabled: true
   value: "%health%"
   title: "&cHealth"
   fancy-value: "&c%health%"
